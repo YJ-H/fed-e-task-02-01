@@ -8,10 +8,24 @@
 #### 编程
 1.
 ```javascript
+// 已经发包至npm 包名@y-pkgs/cli
+// 具体逻辑代码复制到code目录下@y-pkgs
+// github地址 https://github.com/YJ-H/y-packages
+
+//安装包
+yarn add @y-pkgs/cli --dev
+//使用cli生成index.html文件
+yarn yj-cli 
 ```
 2.
 ```javascript
+// 已经发包至npm 包名@y-pkgs/gulp
+// 具体逻辑代码复制到code目录下@y-pkgs
+// github地址 https://github.com/YJ-H/y-packages
 ```
 3.
 ```javascript
+// 已经发包至npm 包名@y-pkgs/gulp
+// 具体逻辑代码复制到code目录下@y-pkgs
+// github地址 https://github.com/YJ-H/y-packages
 ```
