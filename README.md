@@ -22,10 +22,13 @@ yarn yj-cli
 // 已经发包至npm 包名@y-pkgs/gulp
 // 具体逻辑代码复制到code目录下@y-pkgs
 // github地址 https://github.com/YJ-H/y-packages
+// 在code/pages-boilerplate有具体用法
+"clean": "yj-gulp clean", // 清除生成的目录
+"lint": "yj-gulp lint", // 格式化文件
+"serve": "yj-gulp serve", // --port 8888 --open
+"build": "yj-gulp build", //生成编译文件
+"start": "yj-gulp start",// 在生产模式下运行项目
+"deploy": "yj-gulp deploy --production" // 部署 GitHub Pages。
 ```
 3.
-```javascript
-// 已经发包至npm 包名@y-pkgs/gulp
-// 具体逻辑代码复制到code目录下@y-pkgs
-// github地址 https://github.com/YJ-H/y-packages
-```
+> 详见code/pages-boilerplate/gruntfile.js

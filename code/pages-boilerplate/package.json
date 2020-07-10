@@ -24,12 +24,12 @@
     "url": "https://zce.me"
   },
   "scripts": {
-    "clean": "gulp clean",
-    "lint": "gulp lint",
-    "serve": "gulp serve",
-    "build": "gulp build",
-    "start": "gulp start",
-    "deploy": "gulp deploy --production"
+    "clean": "yj-gulp clean",
+    "lint": "yj-gulp lint",
+    "serve": "yj-gulp serve",
+    "build": "yj-gulp build",
+    "start": "yj-gulp start",
+    "deploy": "yj-gulp deploy --production"
   },
   "browserslist": [
     "last 1 version",
@@ -43,8 +43,13 @@
     "popper.js": "1.16.1"
   },
   "devDependencies": {
-    "@y-pkgs/cli": "file:../../../../YJ/y-packages/packages/@y-pkgs/cli",
-    "@y-pkgs/yj-gulp": "file:../../../../YJ/y-packages/packages/@y-pkgs/gulp"
+    "@y-pkgs/cli": "laster",
+    "@y-pkgs/yj-gulp": "laster",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-swigtemplates": "^0.1.2",
+    "grunt": "^1.2.1",
+    "load-grunt-tasks": "^5.1.0"
   },
   "engines": {
     "node": ">=6"
